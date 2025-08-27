@@ -34,3 +34,5 @@ func BenchmarkBuilder(b *testing.B) {
 		UseBuilder()
 	}
 }
+
+// go test -bench=. -benchmem builder_test.go
